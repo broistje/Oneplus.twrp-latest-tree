@@ -19,7 +19,7 @@ AB_OTA_PARTITIONS += \
     odm \
     system_ext \
     vendor_dlkm
-BOARD_USES_RECOVERY_AS_BOOT := true
+BOARD_USES_RECOVERY_AS_BOOT := false
 
 # Architecture
 TARGET_ARCH := arm64
